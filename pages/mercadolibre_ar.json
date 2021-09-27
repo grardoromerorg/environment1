@@ -1,0 +1,38 @@
+{
+  "titulo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h1[contains(text(),'Completá tus datos')]"
+  },
+  "nombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='firstName']"
+  },
+  "completar nombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/main[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/span[1]"
+  },
+  "aceptar terminos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/main[@id='root-app']/div[1]/div[1]/form[1]/div[1]/div[6]/label[2]"
+  },
+  "btn cerrar alerta": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[4]/div[1]/div[1]/div[1]/div[1]/a[1]"
+  },
+  "btn continuar": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//body/main[@id='root-app']/div[1]/div[1]/form[1]/div[2]/button[1]"
+  },
+  "apellido": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='lastName']"
+  },
+  "dropdown provincia": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='state']"
+  },
+  "DNI": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='identification']"
+  }
+}
